@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 label-studio-sdk = "^1.0.8"
 pillow = "^10.3"
 semver = "^3.0.2"
