@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "label_studio_ml"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+label-studio-sdk = "^1.0.8"
+pillow = "^10.3"
+semver = "^3.0.2"
+requests = "^2.31"
+colorama = "^0.4"
+Flask = "^2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
